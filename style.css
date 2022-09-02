@@ -57,7 +57,7 @@ main{
     width: 50vw;
     color:#0A3871;
     border: none;
-    background: #e5e5e58f;
+    background: #e5e5e5af;
     outline: none;  
     border-radius: 25px;  
       
@@ -128,11 +128,10 @@ main{
     width: 400px;
     height: 700px;
     margin: 10px 40px;
-    background: rgba(255, 255, 255, 0.278);
+    background: rgba(255, 255, 255, 0.603);
     border-radius: 32px;
     text-align: center;
-    /* margin-bottom: 40px; */
-   
+       
 }
 
 /*texarea*/
@@ -230,6 +229,7 @@ ul li a{
     #encriptar{
         margin-top: 15px;
         width: 95%;
+        font-size: 2rem;
         
     }
    
@@ -259,7 +259,7 @@ ul li a{
         width: 100%;
         background-size: contain;
         background-position: right;
-        font-size: 3vw;
+        font-size: 2rem;
         
         
     }
@@ -286,18 +286,31 @@ ul li a{
         width: auto;
     }
 
+    header{
+        display: flex;
+    }
+
+    .logo{
+        margin-bottom: 30px;
+    }
     h1{
+        margin: 30px auto;
+        text-align: center;
         font-size: 2rem;
+        padding:0%;
+        padding-top: 20px;
     }
 
     main{
         width: 100%;
         margin: 0px;
     }
-
-    /* #encriptador{
-        /* margin-left: 20px; 
-    } */
+    #encriptar, .mensaje2{
+        font-size: 1.5rem;
+    }
+    #encriptar::placeholder{
+        font-size: 1.5rem;        
+    }
 
     .botonera{
         display: grid;
@@ -321,7 +334,7 @@ ul li a{
     }
     h1{
         margin: 30px auto;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     #boton-derecho , #boton-izquierdo{
@@ -330,7 +343,7 @@ ul li a{
     }
 
     #encriptar{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     #desencritado{
