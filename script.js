@@ -13,7 +13,6 @@ function btnEncrp(){
     const textoEncriptado =  encriptar(texto.value);
     mensaje.value= textoEncriptado;
     mensaje.style.backgroundImage = "none";
-    parrafo.style.visibility = "hidden";
     bCopiar.style.visibility= "visible";
     texto.value="";
     

@@ -9,6 +9,7 @@ header{
     background: #151516;
         
 }
+
 h1{
     font-family: 'Special Elite', cursive;
     font-size: 5vw;
@@ -59,15 +60,12 @@ main{
     border: none;
     background: #e5e5e5af;
     outline: none;  
-    border-radius: 25px;  
-      
+    border-radius: 25px;    
 }
 
 #encriptar::placeholder{
     padding-left: 15px;
-    color: rgb(167, 122, 7);
-    
-    
+    color: rgb(167, 122, 7); 
 }
 
 .fuente::placeholder{
@@ -90,10 +88,10 @@ main{
     text-align: start;
     text-align: center;
 }
+
 .simbolo{
     display: inline-block;
     margin-right: 20px;
-    
 }
 
 /*botones*/
@@ -108,7 +106,6 @@ main{
     transition: 1s all;
     cursor:pointer;        
 }
-
 
 #boton-derecho:hover{
     transform: scale(1.05);
@@ -246,6 +243,10 @@ ul li a{
         width: 80%;
         margin: 0 auto;
         
+    }
+
+    #boton-copiar{
+        padding: 15px;
     }
 
     #desencriptado{
